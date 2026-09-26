@@ -10,6 +10,7 @@
   "workspaceMount": "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind,consistency=cached",
   "containerEnv": {
     "WORKSPACE_DIRECTORY": "${containerWorkspaceFolder}",
+    "SUPERVISOR_UNCONFINED": "1",
     "SUPERVISOR_CHANNEL": "beta"
   },
   "customizations": {
